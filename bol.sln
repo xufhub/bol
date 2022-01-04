@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31229.75
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "bolApi", "bolApi\bolApi.csproj", "{79B36233-FFA3-4EE4-B2E3-23FA4DAB92F0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{33D73272-530E-4B42-B325-CC26FF477F0C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EFCore.Mysql", "EFCore.Mysql\EFCore.Mysql.csproj", "{73972755-C5E7-4FC6-AEDA-88ECAFAFB11B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BaseRepository", "BaseRepository\BaseRepository.csproj", "{3EECF2B7-18E2-47A2-BD5D-3956CF618E7C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Common", "Common\Common.csproj", "{FCAF75BB-9941-4F56-A923-816BFBCFBCA5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Bol.Repository", "Bol.Repository", "{860523B8-11EE-4512-A3E1-CF75C88B3E65}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bol.Repository", "Bol.Repository\Bol.Repository.csproj", "{2F040F2F-F875-4671-BCFF-B05BC342AA79}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{79B36233-FFA3-4EE4-B2E3-23FA4DAB92F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79B36233-FFA3-4EE4-B2E3-23FA4DAB92F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79B36233-FFA3-4EE4-B2E3-23FA4DAB92F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79B36233-FFA3-4EE4-B2E3-23FA4DAB92F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73972755-C5E7-4FC6-AEDA-88ECAFAFB11B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73972755-C5E7-4FC6-AEDA-88ECAFAFB11B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73972755-C5E7-4FC6-AEDA-88ECAFAFB11B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73972755-C5E7-4FC6-AEDA-88ECAFAFB11B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3EECF2B7-18E2-47A2-BD5D-3956CF618E7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3EECF2B7-18E2-47A2-BD5D-3956CF618E7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3EECF2B7-18E2-47A2-BD5D-3956CF618E7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3EECF2B7-18E2-47A2-BD5D-3956CF618E7C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FCAF75BB-9941-4F56-A923-816BFBCFBCA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCAF75BB-9941-4F56-A923-816BFBCFBCA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCAF75BB-9941-4F56-A923-816BFBCFBCA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCAF75BB-9941-4F56-A923-816BFBCFBCA5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F040F2F-F875-4671-BCFF-B05BC342AA79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F040F2F-F875-4671-BCFF-B05BC342AA79}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F040F2F-F875-4671-BCFF-B05BC342AA79}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F040F2F-F875-4671-BCFF-B05BC342AA79}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{73972755-C5E7-4FC6-AEDA-88ECAFAFB11B} = {33D73272-530E-4B42-B325-CC26FF477F0C}
+		{3EECF2B7-18E2-47A2-BD5D-3956CF618E7C} = {33D73272-530E-4B42-B325-CC26FF477F0C}
+		{FCAF75BB-9941-4F56-A923-816BFBCFBCA5} = {33D73272-530E-4B42-B325-CC26FF477F0C}
+		{2F040F2F-F875-4671-BCFF-B05BC342AA79} = {860523B8-11EE-4512-A3E1-CF75C88B3E65}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A83AED3D-661C-4038-86CB-F374AA3D4D52}
+	EndGlobalSection
+EndGlobal
