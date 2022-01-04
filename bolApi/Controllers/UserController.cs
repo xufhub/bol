@@ -1,6 +1,8 @@
 ﻿using bolApi.Intserface;
+using Common;
 using Microsoft.AspNetCore.Mvc;
 using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -16,10 +18,11 @@ namespace bolApi.Controllers
             _userService = userService;
         }
         [ActionName("get")]
-        public ActionResult Get()
+        public ApiReturn Get(int id)
         {
-            var user = _userService.GetUsers(1);
-            return new JsonResult(user) { ContentType = "application/json", StatusCode = 200};
+            var user = _userService.GetUsers(id);
+            Hashtable ht = new Hashtable();
+            return ApiReturn.Succeed.SetDatas("user", user, "id", user.Id);
         }
     }
 }
