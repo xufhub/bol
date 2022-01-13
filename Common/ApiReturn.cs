@@ -112,6 +112,13 @@ namespace Common
                 return new ApiReturn(false, ReturnCode.NoReason, " 未知");
             }
         }
+        public static ApiReturn ParamaError
+        {
+            get
+            {
+                return new ApiReturn(false, ReturnCode.ParamaError, " 参数错误");
+            }
+        }
     }
 
     public class ReturnCode
@@ -144,5 +151,9 @@ namespace Common
         /// 未知异常
         /// </summary>
         public const int NoReason = 94;
+        /// <summary>
+        /// 参数错误
+        /// </summary>
+        public const int ParamaError = 93;
     }
 }
